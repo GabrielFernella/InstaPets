@@ -12,7 +12,7 @@ const useForm = type => {
   const [error, setError] = React.useState(null);
 
   // eslint-disable-next-line no-shadow
-  function validate() {
+  function validate(value) {
     if (type === false) return true;
     if (value.length === 0) {
       setError('Preencha um valor');
