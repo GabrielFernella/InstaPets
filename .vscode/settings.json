@@ -1,5 +1,5 @@
 {
-  "files.exclude": {
+  /*"files.exclude": {
     "node_modules": true,
     "package-lock.json": true,
     "public": true,
@@ -10,5 +10,5 @@
     ".eslintignore": true,
     //".eslintrc.js": true,
     ".prettierrc": true
-  }
+  }*/
 }

@@ -34,5 +34,6 @@ module.exports = {
     'no-console': 'off',
     'no-undef': 'off',
     'no-use-before-define': 'off',
+    'no-unused-vars': 'off',
   },
 };
