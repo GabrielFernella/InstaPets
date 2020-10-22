@@ -15,7 +15,7 @@
 
 .input:focus,
 .input:hover {
-  outline: none; /*Para tirar a borda padrão que vem com o browser*/
+  outline: none;
   border-color: #fb1;
   background: white;
   box-shadow: 0 0 0 3px #fea;

@@ -35,5 +35,7 @@ module.exports = {
     'no-undef': 'off',
     'no-use-before-define': 'off',
     'no-unused-vars': 'off',
+    'react-hooks/exhaustive-dep': 'off',
+    'react/button-has-type': 'off',
   },
 };

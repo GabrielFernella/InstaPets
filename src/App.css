@@ -38,6 +38,7 @@ input {
   font-family: var(--type-first);
   color: #333;
 }
+
 a {
   text-decoration: none;
 }
