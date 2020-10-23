@@ -37,5 +37,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'react-hooks/exhaustive-dep': 'off',
     'react/button-has-type': 'off',
+    'no-shadow': 'off',
+    'no-unsafe-finally': 'off',
   },
 };

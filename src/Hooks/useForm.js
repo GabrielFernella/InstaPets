@@ -7,7 +7,7 @@ const types = {
   },
 };
 
-const useForm = (type) => {
+const useForm = type => {
   const [value, setValue] = React.useState('');
   const [error, setError] = React.useState(null);
 
@@ -16,13 +16,13 @@ const useForm = (type) => {
     if (value.length === 0) {
       setError('Preencha um valor.');
       return false;
-    } else if (types[type] && !types[type].regex.test(value)) {
+    }
+    if (types[type] && !types[type].regex.test(value)) {
       setError(types[type].message);
       return false;
-    } else {
-      setError(null);
-      return true;
     }
+    setError(null);
+    return true;
   }
 
   function onChange({ target }) {
