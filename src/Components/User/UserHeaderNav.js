@@ -20,7 +20,7 @@ const UserHeaderNav = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
     setMobileMenu(false);
-  }, [pathname]);
+  }, [pathname]); // para desativar o menu depois de ter escolhido uam página do menu
 
   return (
     <>
