@@ -8,7 +8,7 @@
     "yarn.lock": true,
     ".editorconfig": true,
     ".eslintignore": true,
-    //".eslintrc.js": true,
-    ".prettierrc": true
+    ".eslintrc.jsx": true,
+    ".prettierrcx": true
   }
 }
