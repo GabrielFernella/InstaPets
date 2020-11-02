@@ -8,7 +8,7 @@
 
 1. Criação da aplicação e instalação dos componentes
 
-Aula 21 mobile
+Aula 27 mobile
 
 # Anotações
 
